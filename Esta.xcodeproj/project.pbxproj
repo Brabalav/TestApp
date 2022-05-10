@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BAF5E67282AB60500B73EA7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF5E66282AB60500B73EA7 /* HomeViewController.swift */; };
+		1BDB2132282A1FD5005E52C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB2131282A1FD5005E52C9 /* AppDelegate.swift */; };
+		1BDB2134282A1FD5005E52C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB2133282A1FD5005E52C9 /* SceneDelegate.swift */; };
+		1BDB2136282A1FD5005E52C9 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB2135282A1FD5005E52C9 /* AuthViewController.swift */; };
+		1BDB2139282A1FD5005E52C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB2137282A1FD5005E52C9 /* Main.storyboard */; };
+		1BDB213B282A1FD7005E52C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB213A282A1FD7005E52C9 /* Assets.xcassets */; };
+		1BDB213E282A1FD7005E52C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB213C282A1FD7005E52C9 /* LaunchScreen.storyboard */; };
+		1BDB2146282A203A005E52C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB2145282A203A005E52C9 /* GoogleService-Info.plist */; };
+		29EC844B0CF70474AEC19053 /* Pods_Esta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC71943E9EC8545734D8F23 /* Pods_Esta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BAF5E66282AB60500B73EA7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1BDB212E282A1FD5005E52C9 /* Esta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDB2131282A1FD5005E52C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BDB2133282A1FD5005E52C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BDB2135282A1FD5005E52C9 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		1BDB2138282A1FD5005E52C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BDB213A282A1FD7005E52C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BDB213D282A1FD7005E52C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BDB213F282A1FD7005E52C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDB2145282A203A005E52C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C4B5B7592B01F643FC82BD9 /* Pods-Esta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esta.release.xcconfig"; path = "Target Support Files/Pods-Esta/Pods-Esta.release.xcconfig"; sourceTree = "<group>"; };
+		CCC71943E9EC8545734D8F23 /* Pods_Esta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Esta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFADF31573DA5CBB02FEA46D /* Pods-Esta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esta.debug.xcconfig"; path = "Target Support Files/Pods-Esta/Pods-Esta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BDB212B282A1FD5005E52C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EC844B0CF70474AEC19053 /* Pods_Esta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDB2125282A1FD5005E52C9 = {
+			isa = PBXGroup;
+			children = (
+				1BDB2130282A1FD5005E52C9 /* Esta */,
+				1BDB212F282A1FD5005E52C9 /* Products */,
+				7620542F2D8E3F62E8350EEB /* Pods */,
+				8632FF2D288CE4AE1D59B4A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BDB212F282A1FD5005E52C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB212E282A1FD5005E52C9 /* Esta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BDB2130282A1FD5005E52C9 /* Esta */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB2131282A1FD5005E52C9 /* AppDelegate.swift */,
+				1BDB2133282A1FD5005E52C9 /* SceneDelegate.swift */,
+				1BDB2135282A1FD5005E52C9 /* AuthViewController.swift */,
+				1BDB2137282A1FD5005E52C9 /* Main.storyboard */,
+				1BDB213A282A1FD7005E52C9 /* Assets.xcassets */,
+				1BDB213C282A1FD7005E52C9 /* LaunchScreen.storyboard */,
+				1BDB213F282A1FD7005E52C9 /* Info.plist */,
+				1BDB2145282A203A005E52C9 /* GoogleService-Info.plist */,
+				1BAF5E66282AB60500B73EA7 /* HomeViewController.swift */,
+			);
+			path = Esta;
+			sourceTree = "<group>";
+		};
+		7620542F2D8E3F62E8350EEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFADF31573DA5CBB02FEA46D /* Pods-Esta.debug.xcconfig */,
+				1C4B5B7592B01F643FC82BD9 /* Pods-Esta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8632FF2D288CE4AE1D59B4A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC71943E9EC8545734D8F23 /* Pods_Esta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BDB212D282A1FD5005E52C9 /* Esta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDB2142282A1FD7005E52C9 /* Build configuration list for PBXNativeTarget "Esta" */;
+			buildPhases = (
+				71D80B2D105A08BFA7D7CF34 /* [CP] Check Pods Manifest.lock */,
+				1BDB212A282A1FD5005E52C9 /* Sources */,
+				1BDB212B282A1FD5005E52C9 /* Frameworks */,
+				1BDB212C282A1FD5005E52C9 /* Resources */,
+				31FDB5189C28C04EAF43E7CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esta;
+			productName = Esta;
+			productReference = 1BDB212E282A1FD5005E52C9 /* Esta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BDB2126282A1FD5005E52C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1BDB212D282A1FD5005E52C9 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1BDB2129282A1FD5005E52C9 /* Build configuration list for PBXProject "Esta" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BDB2125282A1FD5005E52C9;
+			productRefGroup = 1BDB212F282A1FD5005E52C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BDB212D282A1FD5005E52C9 /* Esta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BDB212C282A1FD5005E52C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB213E282A1FD7005E52C9 /* LaunchScreen.storyboard in Resources */,
+				1BDB213B282A1FD7005E52C9 /* Assets.xcassets in Resources */,
+				1BDB2139282A1FD5005E52C9 /* Main.storyboard in Resources */,
+				1BDB2146282A203A005E52C9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31FDB5189C28C04EAF43E7CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Esta/Pods-Esta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Esta/Pods-Esta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Esta/Pods-Esta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D80B2D105A08BFA7D7CF34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Esta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BDB212A282A1FD5005E52C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB2136282A1FD5005E52C9 /* AuthViewController.swift in Sources */,
+				1BDB2132282A1FD5005E52C9 /* AppDelegate.swift in Sources */,
+				1BDB2134282A1FD5005E52C9 /* SceneDelegate.swift in Sources */,
+				1BAF5E67282AB60500B73EA7 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BDB2137282A1FD5005E52C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDB2138282A1FD5005E52C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BDB213C282A1FD7005E52C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDB213D282A1FD7005E52C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BDB2140282A1FD7005E52C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BDB2141282A1FD7005E52C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BDB2143282A1FD7005E52C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFADF31573DA5CBB02FEA46D /* Pods-Esta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Esta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brabalav.Esta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BDB2144282A1FD7005E52C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4B5B7592B01F643FC82BD9 /* Pods-Esta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Esta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brabalav.Esta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BDB2129282A1FD5005E52C9 /* Build configuration list for PBXProject "Esta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDB2140282A1FD7005E52C9 /* Debug */,
+				1BDB2141282A1FD7005E52C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDB2142282A1FD7005E52C9 /* Build configuration list for PBXNativeTarget "Esta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDB2143282A1FD7005E52C9 /* Debug */,
+				1BDB2144282A1FD7005E52C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BDB2126282A1FD5005E52C9 /* Project object */;
+}
